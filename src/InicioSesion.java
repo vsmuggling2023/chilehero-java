@@ -25,6 +25,7 @@ public class InicioSesion extends javax.swing.JFrame {
     public InicioSesion() {
         initComponents();
          setTitle("Chile Hero");
+         this.setLocationRelativeTo(null);
         conectarDB();
     }
     private Connection conectarDB() {
